@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&family=Inter&family=Karla&family=Open+Sans:wght@300&family=Oswald&family=Roboto&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yukoch</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <a href="index.html"><img src="img/лого.png" alt="logo" class="logo"></a>
+        </header>
+
+        <main>
+            <div class="form">
+                <h2>Оформление заказа</h2>
+                <form action="index.html" id="contact-form">
+                    <div class="form__item">
+                        <label for="name">Имя<span>*</span><br></label>
+                        <input id="name" type="text" required placeholder="Имя">
+                    </div>
+                    <div class="form__item">
+                        <label for="telegram">Telegram<span>*</span><br></label>
+                        <input id="telegram" type="text" required placeholder="Telegram">
+                    </div>
+                    <div class="form__item">
+                        <label for="tel">Номер<span>*</span><br></label>
+                        <input id="tel" type="tel" pattern="^[ 0-9]+$" required placeholder="Номер телефона">
+                    </div>
+                    <div class="form__item">
+                        <label for="email">Email<span>*</span><br></label>
+                        <input id="email" type="email" required placeholder="Email">
+                    </div>
+                    <div class="form__item">
+                        <label for="text">Сообщение<span>*</span><br></label>
+                        <textarea id="text" required placeholder="Введите сообщение..."></textarea>
+                    </div>
+                    <div class="input_form">
+                        <input type="submit" class="button_form">
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer class="form_footer">
+            <div class="block_left">
+                <p>© 2023 Yukoch</p>
+                <img src="img/vertical_line.png" alt="линия" class="line_vertic">
+                <a href="https://vk.com/yukassik" target="_blank"><img src="img/vk-logo.png" alt="VK"
+                        class="logo_vk"></a>
+                <a href="https://github.com/Yukasik" target="_blank"><img src="img/github-logo.png" alt="github"
+                        class="logo_github"></a>
+            </div>
+
+            <div class="block_right">
+                <h4>Контакты</h4>
+                <div class="block_teleg">
+                    <img src="img/telegram-logo.png" alt="Telegram" class="logo_teleg">
+                    <p><a href="https://t.me/yukasik" target="_blank">@yukasik</a></p>
+                </div>
+                <div class="block_mail">
+                    <img src="img/mail-logo.png" alt="mail" class="logo_mail">
+                    <p><a href="mailto:yukoch@inbox.ru" target="_blank">yukoch@inbox.ru</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
